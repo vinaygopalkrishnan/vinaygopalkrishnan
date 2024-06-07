@@ -21,6 +21,13 @@ My passion lies in data engineering and data science, where I thrive on the chal
 
 📈 my github stats
 
+<div class="flex-container"><!-- .element: style="display: flex; flex-direction: row;" -->
+<div align=center>
+<a href="https://github.com/vinaygopalkrishnan"><img src="https://github-readme-stats.vercel.app/api?username=vinaygopalkrishnan&show_icons=true&count_private=true&bg_color=20232A&theme=react&card_width=400&rank_icon=github" alt="Vinay's GitHub Stats" />
+</a> <a href="https://github.com/vinaygopalkrishnan"><img src="https://github-readme-streak-stats.herokuapp.com?user=vinaygopalkrishnan&theme=react&bg_color=20232A&card_width=400" /></a>
+</div>
+</div>
+
 <div align=center>
 <a href="https://github.com/vinaygopalkrishnan"><img alt="Vinay's Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph/?username=vinaygopalkrishnan&bg_color=20232A&color=62DAFB&line=62DAFB&point=FFFFFF&height=250&radius=5"/></a>
 </div>
