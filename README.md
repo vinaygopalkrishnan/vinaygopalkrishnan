@@ -1,3 +1,4 @@
+
 Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Vinay Gopalkrishnan
 ===========================================================================================================================================
 
@@ -16,4 +17,13 @@ My passion lies in data engineering and data science, where I thrive on the chal
 
 📈 my github stats
 
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=vinaygopalkrishnan&show_icons=true&theme=gotham" alt="vinaygopalkrishnan" />
+<div align=center>
+<a href="https://github.com/vinaygopalkrishnan"><img alt="Vinay's Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph/?username=vinaygopalkrishnan&bg_color=20232A&color=62DAFB&line=62DAFB&point=FFFFFF&height=250&radius=5"/></a>
+</div>
+
+
+<br>
+<div align=center>
+<a href="https://stats.hyochan.dev/en/stats/vinaygopalkrishnan"><img src="https://stats.hyochan.dev/api/github-stats?login=vinaygopalkrishnan" width="600" /></a>
+</div>
+<br>
