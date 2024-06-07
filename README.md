@@ -1,6 +1,6 @@
-<div align=center>
-  ![Coding GIF](https://github.com/vinaygopalkrishnan/vinaygopalkrishnan/blob/main/code.gif)
-</div>
+
+![Coding GIF](https://github.com/vinaygopalkrishnan/vinaygopalkrishnan/blob/main/code.gif)
+
 
 Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Vinay Gopalkrishnan
 ===========================================================================================================================================
