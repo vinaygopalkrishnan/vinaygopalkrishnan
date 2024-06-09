@@ -1,7 +1,8 @@
 ![Coding GIF](https://github.com/vinaygopalkrishnan/vinaygopalkrishnan/blob/main/code.gif)
 
+
 Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif) My name is Vinay Gopalkrishnan
-===========================================================================================================================================
+=============================================================================================================================================
 
 Principal Engineer
 ------------------
@@ -39,3 +40,6 @@ My passion lies in data engineering and data science, where I thrive on the chal
 </div>
 <br>
 
+
+
+![Minion](https://github.com/vinaygopalkrishnan/vinaygopalkrishnan/blob/main/minioncoding.jpeg)
