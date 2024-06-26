@@ -1,5 +1,4 @@
-
-![Coding GIF](https://github.com/vinaygopalkrishnan/vinaygopalkrishnan/blob/main/code.gif)
+<img width="1000" height="350" alt="image" src="https://github.com/vinaygopalkrishnan/vinaygopalkrishnan/assets/39412012/a59e418a-5a37-41e6-a200-a72d7e9b6829">
 
 
 Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif) My name is Vinay Gopalkrishnan
@@ -9,7 +8,7 @@ Principal Engineer
 ------------------
 ### About Me
 
-<img width="1000" alt="image" src="https://github.com/vinaygopalkrishnan/vinaygopalkrishnan/assets/39412012/a59e418a-5a37-41e6-a200-a72d7e9b6829">
+![Coding GIF](https://github.com/vinaygopalkrishnan/vinaygopalkrishnan/blob/main/code.gif)
 
 My passion lies in data engineering and data science, where I thrive on the challenge of integrating diverse systems. The immense satisfaction I derive from seeing integrated systems working together seamlessly, producing results that far exceed what each system could achieve on its own, is unmatched. With a focus on google cloud technologies as well as open source offerings like Spark, Argo, Flink, Kafka and Python; I aim to leverage data to drive meaningful insights and efficiencies.
 
