@@ -14,8 +14,8 @@ My passion lies in data engineering and data science, where I thrive on the chal
 
 *   🌍  I'm based in Maryland
 *   🧠  I'm learning Flink
-*   🤝  I'm open to collaborating on Faust
-*   ⚡  I love electric vehicles
+*   🤝  I'm open to collaborating on streaming applications and data science
+*   ⚡  I love reading about science and technological innovations
 
   ### Skills
 <p align="left">
