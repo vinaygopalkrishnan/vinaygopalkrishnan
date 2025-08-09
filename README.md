@@ -1,7 +1,7 @@
 <img width="1024" height="1024" alt="VGK in a cloud" src="https://github.com/user-attachments/assets/805dac02-c72e-434b-bbae-51af94c76a79" />
 
 
-Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif) My name is Vinay Gopalkrishnan
+Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif) My name is Vinay GopalKrishnan
 =============================================================================================================================================
 
 Principal Engineer
@@ -13,7 +13,7 @@ Principal Engineer
 My passion lies in data engineering and data science, where I thrive on the challenge of integrating diverse systems. The immense satisfaction I derive from seeing integrated systems working together seamlessly, producing results that far exceed what each system could achieve on its own, is unmatched. With a focus on google cloud technologies as well as open source offerings like Spark, Argo, Flink, Kafka and Python; I aim to leverage data to drive meaningful insights and efficiencies.
 
 *   🌍  I'm based in Maryland
-*   🧠  I'm learning Flink
+*   🧠  I'm learning R
 *   🤝  I'm open to collaborating on streaming applications and data science
 *   ⚡  I love reading about science and technological innovations
 
