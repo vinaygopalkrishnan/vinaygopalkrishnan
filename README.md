@@ -1,4 +1,4 @@
-<img width="1000" height="300" alt="image" src="https://github.com/vinaygopalkrishnan/vinaygopalkrishnan/assets/39412012/a59e418a-5a37-41e6-a200-a72d7e9b6829">
+<img width="1024" height="1024" alt="VGK in a cloud" src="https://github.com/user-attachments/assets/805dac02-c72e-434b-bbae-51af94c76a79" />
 
 
 Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif) My name is Vinay Gopalkrishnan
