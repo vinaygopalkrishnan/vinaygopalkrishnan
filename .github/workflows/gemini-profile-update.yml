@@ -35,6 +35,9 @@ jobs:
           commit_message: "feat: Update Gemini quote"
           file_pattern: 'README.md'
 
+      - name: Setup Gemini CLI
+        uses: google-github-actions/setup-gemini-cli@main
+
       - name: Generate tech fact with Gemini CLI and update file
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
