@@ -8,6 +8,10 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 > **💡 Thought of the Day:** Elegance in code is the poetry of problem-solving.
 <!-- GEMINI_QUOTE_END -->
 
+<div align="center">
+  <img src="https://github.com/vinaygopalkrishnan/vinaygopalkrishnan/blob/main/FACT.md" />
+</div>
+
 Principal Engineer
 ------------------
 ### About Me

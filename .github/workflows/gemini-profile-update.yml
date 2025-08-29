@@ -34,3 +34,25 @@ jobs:
         with:
           commit_message: "feat: Update Gemini quote"
           file_pattern: 'README.md'
+
+      - name: Generate tech fact with Gemini
+        id: gemini-fact
+        uses: google-github-actions/run-gemini-cli@v1
+        with:
+          gemini_api_key: ${{ secrets.GEMINI_API_KEY }}
+          prompt: 'Generate a short, fascinating fact about computer science, software, or technology history.'
+          output_format: 'text'
+
+      - name: Update README.md
+        run: |
+          echo "### 💡 Daily Tech Fact" > FACT.md
+          echo "" >> FACT.md
+          echo "${{ steps.gemini-fact.outputs.text }}" >> FACT.md
+          
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add FACT.md
+          git commit -m "🤖 Update daily tech fact" || exit 0
+          git push
