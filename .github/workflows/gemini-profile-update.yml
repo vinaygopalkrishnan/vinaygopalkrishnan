@@ -35,18 +35,25 @@ jobs:
           commit_message: "feat: Update Gemini quote"
           file_pattern: 'README.md'
 
-      - name: Generate tech fact with Gemini
-        id: gemini-fact
-        uses: google-github-actions/run-gemini-cli@main
-        with:
-          gemini_api_key: ${{ secrets.GEMINI_API_KEY }}
-          prompt: 'Generate a short, fascinating fact about computer science, software, or technology history.'
-
-      - name: Update README.md
+      - name: Generate tech fact with Gemini CLI and update file
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
+          # The `google-github-actions/run-gemini-cli` action is a wrapper that just
+          # installs the `gemini-cli`. We can use the CLI directly here.
+          
+          # Use a variable to store the fact
+          FACT=$(gemini-cli generate-content --prompt 'Generate a short, fascinating fact about computer science, software, or technology history.')
+          
+          # Check if the fact is not empty
+          if [ -z "$FACT" ]; then
+            FACT="The first computer mouse, invented by Douglas Engelbart, was made of wood."
+          fi
+          
+          # Write the header and the fact to FACT.md
           echo "### 💡 Daily Tech Fact" > FACT.md
           echo "" >> FACT.md
-          echo "${{ steps.gemini-fact.outputs.output }}" >> FACT.md
+          echo "$FACT" >> FACT.md
           
       - name: Commit and push changes
         run: |
