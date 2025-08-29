@@ -43,6 +43,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           npm install -g @google/gemini-cli
+          export PATH="$PATH:$(npm bin -g)"
           FACT=$(gemini-cli generate-content --prompt 'Generate a short, fascinating fact about computer science, software, or technology history.')
           if [ -z "$FACT" ]; then
             FACT="The first computer mouse, invented by Douglas Engelbart, was made of wood."
