@@ -42,3 +42,5 @@ My passion lies in data engineering and data science, where I thrive on the chal
 <a href="https://stats.hyochan.dev/en/stats/vinaygopalkrishnan"><img src="https://stats.hyochan.dev/api/github-stats?login=vinaygopalkrishnan" width="600" /></a>
 </div>
 <br>
+
+### My Recent Activity
