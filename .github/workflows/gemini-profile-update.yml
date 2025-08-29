@@ -37,6 +37,8 @@ jobs:
 
       - name: Setup Gemini CLI
         uses: google-github-actions/run-gemini-cli@main
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
       - name: Generate tech fact with Gemini CLI and update file
         env:
