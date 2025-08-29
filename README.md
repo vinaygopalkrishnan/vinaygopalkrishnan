@@ -9,6 +9,9 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 
 <!-- GEMINI_QUOTE_END -->
 
+<!-- START_FACT -->
+<!-- END_FACT -->
+
 <div align="center">
   <img src="https://github.com/vinaygopalkrishnan/vinaygopalkrishnan/blob/main/FACT.md" />
 </div>

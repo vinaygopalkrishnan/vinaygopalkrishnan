@@ -1,9 +1,9 @@
 import os
 import google.generativeai as genai
+import re
 
 PROMPT = "Generate a short, fascinating fact about computer science, software, or technology history."
-FACT_FILE = "FACT.md"
-HEADER = "### 💡 Daily Tech Fact\n\n"
+readme_path = "README.md"
 FALLBACK = "The first computer mouse, invented by Douglas Engelbart, was made of wood."
 
 def main():
@@ -20,9 +20,21 @@ def main():
         except Exception as e:
             fact = FALLBACK
 
-    with open(FACT_FILE, "w", encoding="utf-8") as f:
-        f.write(HEADER)
-        f.write(fact + "\n")
+    # Read the existing README.md content
+    with open(readme_path, 'r') as f:
+        readme_content = f.read()
+
+    start_marker = "<!-- START_FACT -->"
+    end_marker = "<!-- END_FACT -->"
+    if start_marker in readme_content and end_marker in readme_content:
+        new_readme_content = re.sub(
+            f'{start_marker}.*{end_marker}',
+            f'{start_marker}\n> **💡 Fact of the Day:** **{fact}**\n\n{end_marker}',
+            readme_content,
+            flags=re.DOTALL
+        )
+    with open(readme_path, "w") as f:
+        f.write(new_readme_content)
 
 if __name__ == "__main__":
     main()
