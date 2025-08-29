@@ -4,10 +4,8 @@
 Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif) My name is Vinay GopalKrishnan
 =============================================================================================================================================
 
-✨ Today’s Gemini quote ✨
 <!-- GEMINI_QUOTE_START -->
 > **💡 Thought of the Day:** Elegance in code is the poetry of problem-solving.
-
 <!-- GEMINI_QUOTE_END -->
 
 Principal Engineer
