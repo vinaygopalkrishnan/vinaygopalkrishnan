@@ -39,11 +39,17 @@ jobs:
 
 
       - name: Generate tech fact with Gemini CLI and update file
-        uses: google-github-actions/run-gemini-cli@v0.1.12
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        with:
-          command: generate-content --prompt 'Generate a short, fascinating fact about computer science, software, or technology history.' --output FACT.md --header '### 💡 Daily Tech Fact'
+        run: |
+          npm install -g @google/gemini-cli
+          FACT=$(gemini-cli generate-content --prompt 'Generate a short, fascinating fact about computer science, software, or technology history.')
+          if [ -z "$FACT" ]; then
+            FACT="The first computer mouse, invented by Douglas Engelbart, was made of wood."
+          fi
+          echo "### 💡 Daily Tech Fact" > FACT.md
+          echo "" >> FACT.md
+          echo "$FACT" >> FACT.md
           
       - name: Commit and push changes
         run: |
