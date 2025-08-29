@@ -30,6 +30,7 @@ jobs:
         run: python .github/scripts/generate_text.py
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: 'gemini-1.5-flash'
 
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v4
@@ -41,19 +42,9 @@ jobs:
       - name: Generate tech fact with Gemini CLI and update file
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: 'gemini-1.5-flash'
         run: |
-          npm install -g @google/gemini-cli
-          NPM_BIN=$(npm bin -g)
-          export PATH="$PATH:$NPM_BIN"
-          echo "npm bin is $NPM_BIN"
-          ls -l $NPM_BIN
-          FACT=$($NPM_BIN/gemini-cli generate-content --prompt 'Generate a short, fascinating fact about computer science, software, or technology history.')
-          if [ -z "$FACT" ]; then
-            FACT="The first computer mouse, invented by Douglas Engelbart, was made of wood."
-          fi
-          echo "### 💡 Daily Tech Fact" > FACT.md
-          echo "" >> FACT.md
-          echo "$FACT" >> FACT.md
+          python .github/scripts/generate_fact.py
           
       - name: Commit and push changes
         run: |

@@ -5,8 +5,8 @@ import re
 # Get API key from environment variables
 API_KEY = os.environ.get("GEMINI_API_KEY")
 genai.configure(api_key=API_KEY)
-
-model = genai.GenerativeModel('gemini-1.5-flash')
+generative_model = os.environ.get("GEMINI_MODEL", "gemini-1.5-flash")
+model = genai.GenerativeModel(generative_model)
 
 # Gemini prompt to generate a short, clever message
 prompt = """
