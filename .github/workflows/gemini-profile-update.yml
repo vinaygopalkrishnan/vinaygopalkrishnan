@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
     steps:
       - name: Checkout repository
@@ -36,9 +38,7 @@ jobs:
           file_pattern: 'README.md'
 
       - name: Setup Gemini CLI
-        uses: google-github-actions/run-gemini-cli@main
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        uses: google-github-actions/run-gemini-cli@v0.1.12
 
       - name: Generate tech fact with Gemini CLI and update file
         env:
