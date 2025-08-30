@@ -29,7 +29,7 @@ def main():
     if start_marker in readme_content and end_marker in readme_content:
         new_readme_content = re.sub(
             f'{start_marker}.*{end_marker}',
-            f'{start_marker}\n> **💡 Fact of the Day:** **{fact}**\n\n{end_marker}',
+            f'{start_marker}\n> **💡 Did you know?** {fact}\n\n{end_marker}',
             readme_content,
             flags=re.DOTALL
         )
