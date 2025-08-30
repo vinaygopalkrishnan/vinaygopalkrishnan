@@ -10,7 +10,7 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 <!-- GEMINI_QUOTE_END -->
 
 <!-- START_FACT -->
-> **💡 Fact of the Day:** **The first computer bug was a literal bug – a moth trapped in a relay of the Harvard Mark II computer in 1947.  The engineers taped it into the logbook with the note "First actual case of bug being found."**
+> **💡 Fact of the Day:** The first computer bug was a literal bug – a moth trapped in a relay of the Harvard Mark II computer in 1947.  The engineers taped it into the logbook with the note "First actual case of bug being found."
 
 <!-- END_FACT -->
 
