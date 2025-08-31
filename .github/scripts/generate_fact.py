@@ -24,8 +24,8 @@ def main():
     with open(readme_path, 'r') as f:
         readme_content = f.read()
 
-    start_marker = "<!-- START_FACT -->"
-    end_marker = "<!-- END_FACT -->"
+    start_marker = "<!-- GEMINI_FACT_START -->"
+    end_marker = "<!-- GEMINI_FACT_END -->"
     if start_marker in readme_content and end_marker in readme_content:
         new_readme_content = re.sub(
             f'{start_marker}.*{end_marker}',

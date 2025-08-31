@@ -5,14 +5,12 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 =============================================================================================================================================
 
 <!-- GEMINI_QUOTE_START -->
-> **💡 Thought of the Day:** Unsolved problems are the fertile ground where innovation blooms.
 
 <!-- GEMINI_QUOTE_END -->
 
-<!-- START_FACT -->
-> **💡 Fact of the Day:** The first computer bug was a literal bug – a moth trapped in a relay of the Harvard Mark II computer in 1947.  The engineers taped it into the logbook with the note "First actual case of bug being found."
+<!-- GEMINI_FACT_START -->
 
-<!-- END_FACT -->
+<!-- GEMINI_FACT_END -->
 
 
 Principal Engineer
