@@ -10,7 +10,7 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 <!-- GEMINI_QUOTE_END -->
 
 <!-- GEMINI_FACT_START -->
-> **💡 Did you know?** The first computer bug was a real bug – a moth trapped in the Harvard Mark II computer in 1947, causing a malfunction.  Grace Hopper taped it into the logbook with the note "First actual case of bug being found."
+> **💡 Did you know?** The first computer bug was a literal bug—a moth trapped in a relay of the Harvard Mark II computer in 1947.  Grace Hopper meticulously taped the moth into the logbook, noting "First actual case of bug being found."
 
 <!-- GEMINI_FACT_END -->
 
